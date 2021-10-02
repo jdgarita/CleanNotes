@@ -1,9 +1,9 @@
-import dependencies.AndroidTestDependencies
-import dependencies.Dependencies
-import Application
+import dependencies.dependencies.AndroidTestDependencies
+import dependencies.dependencies.Dependencies
+import dependencies.Application
 import dependencies.Versions
-import Java
-import dependencies.SupportDependencies
+import dependencies.Java
+import dependencies.dependencies.SupportDependencies
 
 apply plugin: 'com.android.application'
 

@@ -1,4 +1,4 @@
-import dependencies.Versions
+package dependencies
 
 object Build {
     val build_tools = "com.android.tools.build:gradle:${Versions.gradle}"

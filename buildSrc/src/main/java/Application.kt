@@ -1,3 +1,5 @@
+package dependencies
+
 object Application {
     val id = "com.jd.cleannotes"
     val version_code = 1

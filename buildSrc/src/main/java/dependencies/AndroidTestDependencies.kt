@@ -1,4 +1,6 @@
-package dependencies
+package dependencies.dependencies
+
+import dependencies.Versions
 
 object AndroidTestDependencies {
 

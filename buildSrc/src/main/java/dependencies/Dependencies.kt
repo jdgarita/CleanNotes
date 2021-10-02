@@ -1,4 +1,6 @@
-package dependencies
+package dependencies.dependencies
+
+import dependencies.Versions
 
 object Dependencies {
     val kotlin_standard_library = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlin}"
