@@ -2,6 +2,7 @@ package com.jd.cleannotes.business.data.cache.implementation
 
 import com.jd.cleannotes.business.data.cache.abstraction.NoteCacheDataSource
 import com.jd.cleannotes.business.domain.model.Note
+import com.jd.cleannotes.framework.datasource.cache.abstraction.NoteDaoService
 import javax.inject.Inject
 import javax.inject.Singleton
 

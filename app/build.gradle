@@ -53,6 +53,9 @@ dependencies {
     implementation Dependencies.kotlin_standard_library
     implementation Dependencies.kotlin_reflect
     implementation Dependencies.ktx
+    implementation Dependencies.kotlin_coroutines_play_services
+    implementation Dependencies.kotlin_coroutines
+    implementation Dependencies.kotlin_coroutines_android
 
     // dependencies
     implementation Dependencies.dagger
@@ -63,6 +66,8 @@ dependencies {
     implementation Dependencies.kotlin_coroutines
     implementation Dependencies.kotlin_coroutines_android
     implementation Dependencies.kotlin_coroutines_play_services
+    implementation Dependencies.retrofit
+    implementation Dependencies.retrofit_gson
 
     // Annotation Processing
     kapt AnnotationProcessing.dagger_compiler
