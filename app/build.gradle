@@ -45,6 +45,10 @@ android {
         jvmTarget = Java.java_version
     }
 
+    sourceSets {
+        test.resources.srcDirs += 'src/test/res'
+    }
+
     // remove need for apply plugin: 'de.mannodermaus.android-junit5'
     testOptions {
         unitTests.all {
@@ -71,7 +75,6 @@ dependencies {
 
     // Dependencies
     implementation Dependencies.dagger
-    testImplementation 'junit:junit:4.12'
 
     // Annotation processing
     kapt AnnotationProcessing.dagger_compiler
