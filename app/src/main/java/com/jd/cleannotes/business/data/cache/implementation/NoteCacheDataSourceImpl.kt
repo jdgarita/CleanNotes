@@ -13,18 +13,25 @@ constructor(
     private val noteDaoService: NoteDaoService
 ) : NoteCacheDataSource {
 
-    override suspend fun insertNote(note: Note) = noteDaoService.insertNote(note)
+    override suspend fun insertNote(note: Note): Long {
+        return noteDaoService.insertNote(note)
+    }
 
-    override suspend fun deleteNote(primaryKey: String) =
-        noteDaoService.deleteNote(primaryKey)
+    override suspend fun deleteNote(primaryKey: String): Int {
+        return noteDaoService.deleteNote(primaryKey)
+    }
 
-    override suspend fun deleteNotes(notes: List<Note>) = noteDaoService.deleteNotes(notes)
+    override suspend fun deleteNotes(notes: List<Note>): Int {
+        return noteDaoService.deleteNotes(notes)
+    }
 
     override suspend fun updateNote(
         primaryKey: String,
         newTitle: String,
         newBody: String?
-    ) = noteDaoService.updateNote(primaryKey, newTitle, newBody)
+    ): Int {
+        return noteDaoService.updateNote(primaryKey, newTitle, newBody)
+    }
 
     override suspend fun searchNotes(
         query: String,
@@ -34,10 +41,19 @@ constructor(
         TODO("Check filterAndOrder and make query")
     }
 
-    override suspend fun searchNoteById(id: String) = noteDaoService.searchNoteById(id)
+    override suspend fun getAllNotes(): List<Note> {
+        return noteDaoService.getAllNotes()
+    }
 
-    override suspend fun getNumNotes() = noteDaoService.getNumNotes()
+    override suspend fun searchNoteById(id: String): Note? {
+        return noteDaoService.searchNoteById(id)
+    }
 
-    override suspend fun insertNotes(notes: List<Note>) =
-        noteDaoService.insertNotes(notes)
+    override suspend fun getNumNotes(): Int {
+        return noteDaoService.getNumNotes()
+    }
+
+    override suspend fun insertNotes(notes: List<Note>): LongArray {
+        return noteDaoService.insertNotes(notes)
+    }
 }

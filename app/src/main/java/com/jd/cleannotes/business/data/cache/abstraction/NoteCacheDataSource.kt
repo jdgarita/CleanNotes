@@ -2,6 +2,7 @@ package com.jd.cleannotes.business.data.cache.abstraction
 
 import com.jd.cleannotes.business.domain.model.Note
 
+
 interface NoteCacheDataSource {
 
     suspend fun insertNote(note: Note): Long
@@ -17,6 +18,8 @@ interface NoteCacheDataSource {
         filterAndOrder: String,
         page: Int
     ): List<Note>
+
+    suspend fun getAllNotes(): List<Note>
 
     suspend fun searchNoteById(id: String): Note?
 
