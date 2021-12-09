@@ -1,7 +1,7 @@
 package com.jd.cleannotes.framework.datasource.cache.abstraction
 
 import com.jd.cleannotes.business.domain.model.Note
-import com.jd.cleannotes.framework.datasource.database.NOTE_PAGINATION_PAGE_SIZE
+import com.jd.cleannotes.framework.datasource.cache.database.NOTE_PAGINATION_PAGE_SIZE
 
 interface NoteDaoService {
 

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "174113002414",
+    "project_id": "clean-notes-8814b",
+    "storage_bucket": "clean-notes-8814b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174113002414:android:9a665aacd220b99e7c6e3f",
+        "android_client_info": {
+          "package_name": "com.jd.cleannotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174113002414-i6jdlc17n5cdo578hj6ebrerjrr8p0k0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3IIeOSR7TZ-Ga_b2Hiq0SYspyKUZGNx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174113002414-i6jdlc17n5cdo578hj6ebrerjrr8p0k0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

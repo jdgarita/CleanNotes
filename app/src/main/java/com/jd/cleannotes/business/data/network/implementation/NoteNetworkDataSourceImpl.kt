@@ -2,7 +2,7 @@ package com.jd.cleannotes.business.data.network.implementation
 
 import com.jd.cleannotes.business.data.network.abstraction.NoteNetworkDataSource
 import com.jd.cleannotes.business.domain.model.Note
-import com.jd.cleannotes.framework.datasource.database.network.abstraction.NoteFirestoreService
+import com.jd.cleannotes.framework.datasource.network.abstraction.NoteFirestoreService
 import javax.inject.Inject
 import javax.inject.Singleton
 

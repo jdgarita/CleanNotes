@@ -3,8 +3,8 @@ package com.jd.cleannotes.framework.datasource.cache.implementation
 import com.jd.cleannotes.business.domain.model.Note
 import com.jd.cleannotes.business.domain.util.DateUtil
 import com.jd.cleannotes.framework.datasource.cache.abstraction.NoteDaoService
-import com.jd.cleannotes.framework.datasource.database.NoteDao
-import com.jd.cleannotes.framework.datasource.database.returnOrderedQuery
+import com.jd.cleannotes.framework.datasource.cache.database.NoteDao
+import com.jd.cleannotes.framework.datasource.cache.database.returnOrderedQuery
 import com.jd.cleannotes.util.CacheMapper
 import javax.inject.Inject
 import javax.inject.Singleton

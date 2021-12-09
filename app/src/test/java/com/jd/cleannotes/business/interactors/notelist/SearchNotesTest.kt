@@ -9,7 +9,7 @@ import com.jd.cleannotes.business.domain.state.DataState
 import com.jd.cleannotes.business.interactors.notelist.SearchNotes.Companion.SEARCH_NOTES_NO_MATCHING_RESULTS
 import com.jd.cleannotes.business.interactors.notelist.SearchNotes.Companion.SEARCH_NOTES_SUCCESS
 import com.jd.cleannotes.di.DependencyContainer
-import com.jd.cleannotes.framework.datasource.database.ORDER_BY_ASC_DATE_UPDATED
+import com.jd.cleannotes.framework.datasource.cache.database.ORDER_BY_ASC_DATE_UPDATED
 import com.jd.cleannotes.framework.presentation.notelist.state.NoteListStateEvent.SearchNotesEvent
 import com.jd.cleannotes.framework.presentation.notelist.state.NoteListViewState
 import kotlinx.coroutines.InternalCoroutinesApi

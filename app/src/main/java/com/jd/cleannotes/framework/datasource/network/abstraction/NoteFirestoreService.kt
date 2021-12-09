@@ -1,4 +1,4 @@
-package com.jd.cleannotes.framework.datasource.database.network.abstraction
+package com.jd.cleannotes.framework.datasource.network.abstraction
 
 import com.jd.cleannotes.business.domain.model.Note
 

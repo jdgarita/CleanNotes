@@ -1,4 +1,4 @@
-package com.jd.cleannotes.framework.datasource.database
+package com.jd.cleannotes.framework.datasource.cache.database
 
 import androidx.room.Database
 import androidx.room.RoomDatabase

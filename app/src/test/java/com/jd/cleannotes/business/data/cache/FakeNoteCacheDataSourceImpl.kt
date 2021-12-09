@@ -3,7 +3,7 @@ package com.jd.cleannotes.business.data.cache
 import com.jd.cleannotes.business.data.cache.abstraction.NoteCacheDataSource
 import com.jd.cleannotes.business.domain.model.Note
 import com.jd.cleannotes.business.domain.util.DateUtil
-import com.jd.cleannotes.framework.datasource.database.NOTE_PAGINATION_PAGE_SIZE
+import com.jd.cleannotes.framework.datasource.cache.database.NOTE_PAGINATION_PAGE_SIZE
 
 const val FORCE_DELETE_NOTE_EXCEPTION = "FORCE_DELETE_NOTE_EXCEPTION"
 const val FORCE_DELETES_NOTE_EXCEPTION = "FORCE_DELETES_NOTE_EXCEPTION"

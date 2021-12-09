@@ -5,7 +5,7 @@ import com.jd.cleannotes.business.data.network.abstraction.NoteNetworkDataSource
 import com.jd.cleannotes.business.domain.model.Note
 import com.jd.cleannotes.business.domain.model.NoteFactory
 import com.jd.cleannotes.di.DependencyContainer
-import com.jd.cleannotes.framework.datasource.database.ORDER_BY_ASC_DATE_UPDATED
+import com.jd.cleannotes.framework.datasource.cache.database.ORDER_BY_ASC_DATE_UPDATED
 import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.runBlocking
 import org.junit.jupiter.api.Assertions.assertEquals
