@@ -1,7 +1,26 @@
 package com.jd.cleannotes.framework.presentation
 
 import android.app.Application
+import com.jd.cleannotes.di.AppComponent
+import com.jd.cleannotes.di.DaggerAppComponent
+import kotlinx.coroutines.*
 
-open class BaseApplication : Application() {
+@FlowPreview
+@ExperimentalCoroutinesApi
+open class BaseApplication : Application(){
+
+    lateinit var appComponent: AppComponent
+
+    override fun onCreate() {
+        super.onCreate()
+        initAppComponent()
+    }
+
+    open fun initAppComponent(){
+        appComponent = DaggerAppComponent
+            .factory()
+            .create(this)
+    }
+
 
 }
